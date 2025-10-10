@@ -59,7 +59,8 @@ Se incluyen las 5 consultas obligatorias y 4 adicionales más complejas.
 
 ### Consultas principales
 
-prolog
+```prolog 
+
 % 1. AMD después de 2021
 ?- amd_after_2021(T, ID, Year, RAM, Cores).
 
@@ -74,11 +75,11 @@ prolog
 
 % 5. Laptops con >4GB RAM y <512GB disco
 ?- count_laptops_ram_disk(C).
-
+```
 
 ### Consultas adicionales
 
-prolog
+```prolog
 % Equipos potentes antes de 2022
 ?- high_cores_and_vram_before_2022(ID, Cores, VRAM, Year).
 
@@ -90,7 +91,7 @@ prolog
 
 % Equipos entre años con RAM mínima
 ?- platforms_acquired_between_with_min_ram(2019, 2022, 8192, L).
-
+```
 
 ---
 
@@ -100,15 +101,16 @@ prolog
 
 Base de conocimiento con hechos ruta/7:
 
-prolog
+```prolog
 ruta(Origen, Destino, Medio, HoraSalida, HoraLlegada, CostoUSD, Disponible).
 
 
 Permite encontrar rutas directas o con escalas, calcular tiempos, costos y aplicar filtros.
+```
 
 ### Consultas útiles
 
-prolog
+```prolog
 % Rutas directas Bogotá–Medellín
 ?- direct_routes(bogota, medellin, R).
 
@@ -129,7 +131,7 @@ prolog
 
 % Rutas alternativas
 ?- suggest_alternatives(medellin, cartagena, Alt), forall(member(A, Alt), print_route_info(A)).
-
+```
 
 ---
 
