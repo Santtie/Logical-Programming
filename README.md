@@ -133,9 +133,15 @@ Permite encontrar rutas directas o con escalas, calcular tiempos, costos y aplic
 ?- suggest_alternatives(medellin, cartagena, Alt), forall(member(A, Alt), print_route_info(A)).
 ```
 
+documento de google: https://docs.google.com/document/d/1YEuLQkbAYeGu6i_sN8VJEFQKLxUlQsNGRQN81PtbSf4/edit?usp=sharing
+
 ---
 ### Video explicativo
 
 Link a youtube: https://www.youtube.com/@Santiespin108
+
+punto 4:
+https://www.loom.com/share/c8c4f05cbcae44f28a0a45d1b34f75cc?sid=9271b7cb-9742-4956-bbb2-64e0ae46b493
+https://www.loom.com/share/954bc975852d44558d41e1772064f9fc?sid=1853f23c-ef82-4bb1-bc67-0cc4ce0c93c1
 
 ---
