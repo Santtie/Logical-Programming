@@ -138,7 +138,8 @@ documento de google: https://docs.google.com/document/d/1YEuLQkbAYeGu6i_sN8VJEFQ
 ---
 ### Video explicativo
 
-Link a youtube: https://www.youtube.com/@Santiespin108
+punto 3:
+Link a youtube: [https://www.youtube.com/@Santiespin108](https://youtu.be/U9vGpd8SIH0)
 
 punto 4:
 https://www.loom.com/share/c8c4f05cbcae44f28a0a45d1b34f75cc?sid=9271b7cb-9742-4956-bbb2-64e0ae46b493
